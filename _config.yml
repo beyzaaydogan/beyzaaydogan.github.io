@@ -1,9 +1,9 @@
 remote_theme: pages-themes/hacker@v0.2.0
 
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: Beyza's-Blog
+description: "Personal Website of Beyza Aydoğan"
 author:
-  name: "SomeHacker"
+  name: "Beyza Aydoğan"
   email: "someone@somewebsite.somedomain"
   url: "https://ashishchaudhary.in/hacker-blog"
 
@@ -30,5 +30,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
-year : "2020"
+owner : "beyza"
+year : "2022"
