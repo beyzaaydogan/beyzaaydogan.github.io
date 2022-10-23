@@ -1,3 +1,5 @@
+remote_theme: pages-themes/hacker@v0.2.0
+
 title: Hacker-Blog
 description: "A Jekyll Blog Theme For Hackers"
 author:
