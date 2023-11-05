@@ -2,12 +2,29 @@
 layout: default
 ---
 
+A software engineer who makes progress each day, develops projects, and also herself. Reads and watches about computer
+science.
+Uses technologies such as .NET (C#), PostgreSql, RabbitMQ, Redis, MongoDb, Docker, Git.
+
 <ul>
-    {% for post in paginator.posts %}
-      <li>
-          <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-          <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-      </li>
-    {% endfor %}
+  <h3>
+    <li> Contact: 
+      <a href="mailto:beyzaaydogan026@gmail.com">beyzaaydogan026@gmail.com</a>
+    </li>
+  </h3>
+  <h3>
+    <li>
+      <a href="https://www.linkedin.com/in/beyza-aydogan/">LinkedIn</a>
+    </li>
+  </h3>
+  <h3>
+    <li>
+      <a href="https://medium.com/@beyzaaydogan">Medium</a>
+    </li>
+  </h3>
+  <h3>
+    <li>
+      <a href="https://github.com/beyzaaydogan">GitHub</a>
+    </li>
+  </h3>
 </ul>
